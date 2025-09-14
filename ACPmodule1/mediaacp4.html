@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Div vs Section</title>
+ 
+  <title>Wildlife Content Page</title>
 </head>
 <body>
 
-  <section class="section">
-    <h2>Space Exploration</h2>
-    <p>
-      Space exploration is the ongoing discovery and study of celestial structures beyond Earth. 
-      It has led to major scientific advancements, including satellite technology, space telescopes, 
-      and manned missions to the Moon. Countries and private organizations continue to explore 
-      Mars, asteroids, and deep space to expand human knowledge.
-    </p>
-  </section>
+  <header>
+    <h1>Wildlife Content Page</h1>
+  </header>
 
-  <div class="text">
-    <span class="border" style="color: blue;">
-      Modern space missions often focus on the search for extraterrestrial life, 
-      the development of sustainable space travel, and the potential colonization of Mars. 
-      Advancements in technology are making deep space exploration more achievable than ever before.
-    </span>
-  </div>
+  <main>
+    <!-- Image -->
+    <section>
+      <h2>Beautiful Landscape</h2>
+      <img src="landscape.jpg" alt="Mountain landscape with forest" width="500">
+      
+    </section>
+
+    <!-- Audio -->
+    <section>
+      <h2>Bird Sounds</h2>
+      <audio controls>
+        <source src="birds.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <p>Listen to the calming sounds of birds singing in the forest.</p>
+    </section>
+
+    <!-- Video -->
+    <section>
+      <h2>Wildlife Documentary</h2>
+      <video width="500" controls>
+        <source src="wildlife.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+     
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Wildlife Media Page</p>
+  </footer>
 
 </body>
 </html>
